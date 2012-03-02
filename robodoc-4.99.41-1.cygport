@@ -1,3 +1,5 @@
 DESCRIPTION="Software documentation generator"
 HOMEPAGE="http://rfsber.home.xs4all.nl/Robo/"
 SRC_URI="${HOMEPAGE}/${P}.tar.gz"
+
+MAKEOPTS+=" man1_MANS= "
