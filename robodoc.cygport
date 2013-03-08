@@ -1,0 +1,14 @@
+NAME="robodoc"
+VERSION=4.99.41
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="API documentation generator"
+DESCRIPTION="ROBODoc is an API documentation tool for C, C++, Java, Assembler,
+Basic, Fortran, LaTeX, Postscript, Tcl/Tk, LISP, Forth, Perl, Shell Scripts,
+Makefiles, Occam, COBOL, DCL, Visual Basic, HTML, DB/C, XML, and many other
+languages. It can be made to work with any language that supports comments."
+REQUIRES="ctags"
+HOMEPAGE="http://rfsber.home.xs4all.nl/Robo/"
+SRC_URI="${HOMEPAGE}/${P}.tar.gz"
+
+MAKEOPTS+=" man1_MANS= "
