@@ -1,5 +1,5 @@
 NAME="robodoc"
-VERSION=4.99.41
+VERSION=4.99.43
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="API documentation generator"
@@ -9,6 +9,4 @@ Makefiles, Occam, COBOL, DCL, Visual Basic, HTML, DB/C, XML, and many other
 languages. It can be made to work with any language that supports comments."
 REQUIRES="ctags"
 HOMEPAGE="http://rfsber.home.xs4all.nl/Robo/"
-SRC_URI="${HOMEPAGE}/${P}.tar.gz"
-
-MAKEOPTS+=" man1_MANS= "
+SRC_URI="${HOMEPAGE}/archives/robodoc-${VERSION}.tar.bz2"
